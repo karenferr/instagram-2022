@@ -1,0 +1,9 @@
+@import url('header.css');
+@import url('stories.css');
+body {
+  background-color: #FAFAFA;
+}
+main {
+  width: 935px;
+  margin: 0 auto;
+}
