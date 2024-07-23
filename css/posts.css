@@ -1,0 +1,61 @@
+.post {
+  width: 614px;
+  height: 749px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+.userphoto {
+  display: inline-block;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+margin-right: 15px;
+}
+.upperpost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 61px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.imgpost {
+  width: 612px;
+  height: 612px;
+  align-self: center;
+}
+.upperpost ion-icon {
+  font-size: 16px;
+}
+.userphotoUsername {
+  display: flex;
+  align-items: center;
+}
+.lefticonslowerpost ion-icon {
+  display: inline-block;
+  margin-right: 13px;
+}
+.lowerpost1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 17.6px;
+  font-size: 22px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.userphotolike {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.lowerpost2 {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 14px;
+}
