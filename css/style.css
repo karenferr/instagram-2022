@@ -3,6 +3,8 @@
 @import url('header.css');
 @import url('stories.css');
 @import url('posts.css');
+@import url('sidebar.css');
+
 body {
   background-color: #FAFAFA;
   font-family: 'Roboto';
@@ -10,4 +12,7 @@ body {
 main {
   width: 935px;
   margin: 0 auto;
+  gap: 28px;
+  display: flex;
+  margin-top: 84px;  
 }

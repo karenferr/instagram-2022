@@ -28,7 +28,11 @@ header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #DBDBDB;
-  margin-bottom: 34px;
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  top: 0;
+  z-index: 1;
 }
 header input {
  text-align: center;
@@ -44,4 +48,5 @@ header input {
   align-items: center;
   gap: 20px;
 }
+
 

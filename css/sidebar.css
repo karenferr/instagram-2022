@@ -1,0 +1,95 @@
+.myuserphoto img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.sidebar .username {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sidebar .name {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8e8e8e;
+}
+.top {
+  height: 56px;
+  display: flex;
+  gap: 17px;
+  justify-content: start;
+  margin-bottom: 35px;
+}
+.usernameName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8e8e;
+}
+.middle span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #262626;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  padding-right: 8px;
+}
+.card div {
+  display: flex;
+  padding-right: 8px;
+}
+.card img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+.profile div p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.profile span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.profile div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-right: 8px;
+}
+.seguir {
+  font-size: 12px;
+  font-weight: 500;
+  color: #139ef2;
+}
+.finalsidebar p {
+  font-weight: 400;
+  font-size: 11px;
+  color: #c7c7c7;
+  line-height: 12.89px;
+  margin-bottom: 18px;
+}
+.finalsidebar p {
+  width: 300px;
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+}
