@@ -1,11 +1,13 @@
-.post {
-  width: 614px;
-  height: 749px;
+.feed {
+  width: 100%;
+}
+article {
   display: flex;
   flex-direction: column;
   border: 1px solid #DBDBDB;
   border-radius: 3px;
   margin-bottom: 60px;
+  background-color: white;
 }
 .userphoto {
   display: inline-block;
@@ -14,7 +16,7 @@ height: 32px;
 border-radius: 50%;
 margin-right: 15px;
 }
-.upperpost {
+.top-post {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,14 +29,14 @@ margin-right: 15px;
   height: 612px;
   align-self: center;
 }
-.upperpost ion-icon {
+.top-post ion-icon {
   font-size: 16px;
 }
-.userphotoUsername {
+.top-post div {
   display: flex;
   align-items: center;
 }
-.lefticonslowerpost ion-icon {
+.stories-postsiconslowerpost ion-icon {
   display: inline-block;
   margin-right: 13px;
 }
@@ -58,6 +60,7 @@ margin-right: 15px;
   align-items: center;
   padding-left: 15px;
   font-size: 14px;
+  padding-bottom: 14px;
 }
 .lowerpost2 span {
   font-weight: bold;

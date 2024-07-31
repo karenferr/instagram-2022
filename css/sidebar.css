@@ -1,3 +1,7 @@
+.sidebar {
+  width: 321px;
+  margin-left: 28px;
+}
 .myuserphoto img {
   width: 56px;
   height: 56px;
@@ -88,8 +92,3 @@
   width: 300px;
 }
 
-@media (max-width: 935px) {
-  .sidebar {
-    display: none;
-  }
-}

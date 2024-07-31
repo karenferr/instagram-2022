@@ -2,17 +2,23 @@
 
 @import url('header.css');
 @import url('stories.css');
-@import url('posts.css');
+@import url('feed.css');
 @import url('sidebar.css');
+@import url('responsive.css');
 
 body {
-  background-color: #FAFAFA;
+  background-color:#FAFAFA;
   font-family: 'Roboto';
 }
 main {
   width: 935px;
   margin: 0 auto;
-  gap: 28px;
   display: flex;
-  margin-top: 84px;  
+  margin-top: 88px; 
+}
+.stories-posts {
+  width: 614px;
+}
+.bottom-bar {
+  display: none;
 }

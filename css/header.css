@@ -1,8 +1,11 @@
-nav {
+.nav {
+  background-color: aqua;
   display: flex;
   width: 935px;
+  height: 54px;
   justify-content: space-between;
   margin: 0 auto;
+  align-items: center;
 }
 .i {
   width: 1px;
@@ -14,6 +17,7 @@ nav {
 .iconlogo {
   display: flex;
   align-items: center;
+  width: 150px;
 }
 header ion-icon {
   font-size: 22px;
@@ -24,14 +28,15 @@ header ion-icon {
   margin-top: 5px;
 }
 header {
+  background-color: red;
   height: 54px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #DBDBDB;
   position: fixed;
-  width: 100%;
-  background-color: #FFFFFF;
+  width: 100%; 
   top: 0;
+  left: 0;
   z-index: 1;
 }
 header input {
@@ -48,5 +53,7 @@ header input {
   align-items: center;
   gap: 20px;
 }
-
+.mobile {
+  display: none;
+}
 
