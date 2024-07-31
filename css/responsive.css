@@ -1,20 +1,29 @@
 @media (max-width: 935px) {
-  main {
-    justify-content: center;
+  header {
+    width: 900px;
   }
   .sidebar {
     display: none;
   }
+  .nav {
+    width: 96%;
+  }
 }
 @media (max-width: 614px) {
- main {
-    width: 100%;
+  header {
+width: 612px;
+  }
+  main {
+    background-color: palevioletred;
+    width: 612px;
   }
   .nav {
     display: none;
   }
   .mobile {
-    width: 612px;
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
   }
   .stories ion-icon {
     display: none;
