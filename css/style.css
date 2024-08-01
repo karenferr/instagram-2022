@@ -7,8 +7,10 @@
 @import url('responsive.css');
 
 body {
-  background-color:#FAFAFA;
-  font-family: 'Roboto';
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 main {
   width: 935px;
@@ -20,6 +22,6 @@ main {
   width: 100%;
   max-width: 614px;
 }
-.bottom-bar {
+.bottombar {
   display: none;
 }
